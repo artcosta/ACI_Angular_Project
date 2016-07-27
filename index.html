@@ -7,7 +7,31 @@
     <link href="app-content/app.css" rel="stylesheet" />
 </head>
 <body>
+	<!-- Static navbar -->
+	<div class="navbar navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">AC</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
 
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://phpro.org/tutorials">Tutorials</a></li>
+					<li><a href="http://phpro.org/articles">Articles</a></li>
+					<li><a href="http://phpro.org/examples">Examples</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Registar</a></li>
+					<li><a href="#login"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+						  
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+	
     <div class="jumbotron">
         <div class="container">
             <div class="col-sm-8 col-sm-offset-2">
@@ -36,4 +60,9 @@
     <script src="login/login.controller.js"></script>
     <script src="register/register.controller.js"></script>
 </body>
+<footer class="text-right">
+	<div class="container">
+		<p>created by Artur Costa<a href="#"></a></p>
+	</div>
+</footer>
 </html>
